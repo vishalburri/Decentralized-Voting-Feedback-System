@@ -1,0 +1,27 @@
+.notFoundContainer {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFoundTitle {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.notFoundText {
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.homeLink {
+    color: #3498db;
+    text-decoration: underline;
+    font-size: 1.1em;
+}

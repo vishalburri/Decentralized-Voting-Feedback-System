@@ -1,0 +1,57 @@
+/* CourseFeedback.css */
+
+body {
+    background-color: #f4f4f4;
+    /* Light gray background */
+}
+
+/* Custom Navbar Styles (Assuming you have a Navbar component) */
+.navbar {
+    background-color: #0056b3;
+    /* Deep blue background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Container and Spacing */
+.container-main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Typography Styles */
+.title {
+    color: #333;
+    /* Dark text for better readability */
+}
+
+/* Button Styles */
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Grid Layout */
+.grid-container {
+    margin-top: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-item {
+        padding: 5px;
+    }
+}

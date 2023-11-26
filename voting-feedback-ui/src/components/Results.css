@@ -1,0 +1,87 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container-main {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Table Styles */
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.results-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.results-table th,
+.results-table td {
+    padding: 12px 15px;
+}
+
+.results-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.results-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.results-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+/* Dropdown Styles */
+select {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Winner Announcement Styles */
+h3,
+h4 {
+    color: #333;
+}
+
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .container-main {
+        width: 95%;
+    }
+
+    .results-table {
+        min-width: 200px;
+    }
+}
